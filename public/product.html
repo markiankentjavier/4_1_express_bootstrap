@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <title>M-Javier Login</title>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">M-Javier</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Product</a>
+                  </li>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addProductModal" style="margin-right:10px">Add Product</button>
+              
+              <button class="btn btn-primary" type="submit">Cart</button>
+            </div>
+          </nav>
+        </div>
+        <div class="container" style="padding-top:20px">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-60"  style="max-width:500px;">
+        <img src="C:\Users\Public\4_1_express_bootstrap\public\items\airforce1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike Air Force 1 Low Retro          </h5>
+          <p class="card-text">A scorching edition to your AF-1 collection, this head-turning take on the hoops-to-street icon brings the heat. Contrasting colours add a bold look to any outfit, while Nike Air cushioning puts the cherry on the bottom.</p>
+        <p>Colour Shown: White/Gum Yellow/Forest Green</p>
+        </div>
+        
+        <div class="card-footer">
+            <div class="d-flex bd-highlight mb-0">
+                <div class="me-auto p-2 bd-highlight">
+                    <small><label for="product">Price:</label>
+                        <button type="button" class="btn btn-dark btn-sm" id="product" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">₱8,395                        </button>
+                    </small>
+                    </div>     
+                                          
+                    <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-success btn-sm">Add to Cart</button></div>
+                    <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-primary btn-sm position-relative" style="--bs-btn-padding-x: 1.5rem;">♥</button>
+        </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="max-width:500px">
+        <div class="card h-70">
+        <img src="C:\Users\Public\4_1_express_bootstrap\public\items\airmaxsc.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike Air Max SC Leather</h5>
+          <p class="card-text">With its easy-going lines, heritage athletics look and visible Air cushioning, the Nike Air Max SC is the perfect finish to any outfit. The crisp leather in the upper makes it a durable and lightweight shoe for everyday wear.</p>
+        <p>Colour Shown: White/White/White</p>
+        </div>
+        <div class="card-footer">
+            <div class="d-flex bd-highlight mb-0">
+                <div class="me-auto p-2 bd-highlight">
+                    <small><label for="product">Price:</label>
+                        <button type="button" class="btn btn-dark btn-sm" id="product" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">₱3, 995</button>
+                    </small>
+                    </div>     
+                                          
+                    <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-success btn-sm">Add to Cart</button></div>
+                    <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-primary btn-sm position-relative" style="--bs-btn-padding-x: 1.5rem;">♥</button>
+        </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="max-width:500px">
+        <div class="card h-100">
+        <img src="C:\Users\Public\4_1_express_bootstrap\public\items\airjordan2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Air Jordan 1 Mid SE</h5>
+          <p class="card-text">Fresh look, familiar feel. Every time the AJ1 gets a remake, you get the classic sneaker in new colours and textures. Premium materials and accents give modern expression to an all-time favourite.</p>
+        <p>Colour Shown: Off-Noir/White/Black/Black
+        </p>
+        </div>
+
+        <div class="card-footer">
+            <div class="d-flex bd-highlight mb-0">
+                <div class="me-auto p-2 bd-highlight">
+                    <small><label for="product">Price:</label>
+                        <button type="button" class="btn btn-dark btn-sm" id="product" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">₱7, 595</button>
+                    </small>
+                    </div>     
+                                          
+                    <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-success btn-sm">Add to Cart</button></div>
+                    <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-primary btn-sm position-relative" style="--bs-btn-padding-x: 1.5rem;">♥</button>
+        </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addProductModalLabel">Add a Product</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-floating mb-3">
+            <input type="name" class="form-control" placeholder="Product Name" id="productname"></textarea>
+            <label for="floatingname">Product Name</label>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Description</span>
+            <textarea class="form-control" aria-label="Description"></textarea>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">₱</span>
+            
+            <input type="text" class="form-control" aria-label="Peso amount (with dot and two decimal places)">
+            <span class="input-group-text">.00</span>
+          </div>
+          
+            <label for="productPrice" class="form-label">Product image</label>
+            <div class="input-group">
+              <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+              
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Add Product</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </body>
+</html>
